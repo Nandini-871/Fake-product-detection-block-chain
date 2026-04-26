@@ -24,7 +24,7 @@ export default function Manufacturer({ onClose }) {
     setLoading(true);
 
     try {
-      const res = await fetch("http://127.0.0.1:5000/api/register", {
+      const res = await fetch("https://fake-product-detection-block-chain-1.onrender.com/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -207,4 +207,4 @@ const btnStyle = {
   fontWeight: "bold",
   cursor: "pointer",
   borderRadius: "5px"
-}; 
+};
