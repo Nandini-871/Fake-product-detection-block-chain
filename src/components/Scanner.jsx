@@ -124,7 +124,6 @@ export default function Scanner() {
       <section className="scanner-section" id="scanner">
         <div className="section-inner">
           <div className="section-header">
-            <div className="section-tag">// Live Verification</div>
             <h2>Verify <em>Any Product</em></h2>
           </div>
 
