@@ -17,7 +17,6 @@ function Blockchain() {
           className="section-header"
           style={{ textAlign: "center", marginBottom: "2rem" }}
         >
-          <div className="section-tag">// Live Ledger</div>
           <h2>
             Recent <em>Block Activity</em>
           </h2>
