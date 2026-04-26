@@ -1,36 +1,45 @@
 # Fake Product Detection App
 
-Verify Before You Trust
+**Verify Before You Trust**
+
+A modern web application that helps users identify whether a product is genuine, fake, or suspicious using camera scanning and image-based detection.
+
+---
 
 ## Overview
 
-This is a web application that helps users check whether a product is genuine, fake, or suspicious.
-The project currently focuses on frontend functionality with simulated detection logic and is designed to support future backend and AI integration.
+This project focuses on building a clean and intuitive frontend experience for product verification.
+It simulates real-world detection using demo logic and is structured to support backend and AI integration in future.
 
 ---
 
 ## Features
 
-* Scan product using camera
-* Upload product image
+* Camera-based product scanning
+* Image upload for detection
 * Manual product input
 * Fake / Genuine / Suspicious result
-* Trust score display
-* Scan history (local storage)
-* Clean and responsive UI
+* Trust score (0–100%)
+* Scan history (stored locally)
+* Responsive and minimal UI
 
 ---
 
-## How It Works
+## Demo
 
-1. User scans or uploads a product image
-2. The app processes the input using demo logic
-3. A result is displayed:
+Live Demo: (Add your deployed link here)
 
-   * Genuine
-   * Fake
-   * Suspicious
-4. Trust score and reasons are shown
+---
+
+## Screenshots
+
+*Add your screenshots here*
+
+Example:
+
+![Home](./assets/home.png)
+![Scan](./assets/scan.png)
+![Result](./assets/result.png)
 
 ---
 
@@ -47,7 +56,7 @@ The project currently focuses on frontend functionality with simulated detection
 
 ## Project Structure
 
-```bash id="s7h2k1"
+```
 src/
 ├── components/
 ├── pages/
@@ -60,27 +69,58 @@ src/
 
 ---
 
+## Getting Started
 
+Clone the repository:
 
-## Live Demo
+```
+git clone https://github.com/parul1806-byte/fake-product-detection.git
+```
 
-Coming soon
+Install dependencies:
+
+```
+npm install
+```
+
+Run the project:
+
+```
+npm start
+```
+
+---
+
+## How It Works
+
+1. User scans or uploads a product
+2. The app processes input using demo logic
+3. Result is displayed with:
+
+   * Product status
+   * Trust score
+   * Detection reasons
 
 ---
 
 ## Disclaimer
 
-This project uses demo logic for product detection and does not perform real verification.
+This application currently uses simulated logic and does not perform real product verification.
 
 ---
 
-## Future Improvements
+## Future Scope
 
 * Backend integration
-* AI-based detection
+* AI-based image detection
 * Barcode / QR scanning
 * Database support
+* Real-time alerts
 
 ---
 
 
+
+## Support
+
+If you found this project useful, consider giving it a star on GitHub.
