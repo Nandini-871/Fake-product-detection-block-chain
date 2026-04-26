@@ -1,0 +1,24 @@
+[
+  {
+    "index": 0,
+    "timestamp": "2026-04-21T10:34:31.135040",
+    "product_details": {
+      "name": "GENESIS",
+      "brand": "VerifyX",
+      "price": 0
+    },
+    "previous_hash": "0",
+    "hash": "ba270016d442ef42352f4f0fb18c1c760106caf60d67184b9a9e3c76600131ad"
+  },
+  {
+    "index": 1,
+    "timestamp": "2026-04-25T17:56:26.856291",
+    "product_details": {
+      "name": "NIke Shoe",
+      "brand": "NIke",
+      "price": "4999"
+    },
+    "previous_hash": "ba270016d442ef42352f4f0fb18c1c760106caf60d67184b9a9e3c76600131ad",
+    "hash": "93a536a9d4adfca7d2fd44bbe63258718b2b39dc9cfa50fde64686e93999e557"
+  }
+]
