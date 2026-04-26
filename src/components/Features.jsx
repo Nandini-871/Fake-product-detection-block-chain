@@ -37,7 +37,6 @@ function Features() {
   return (
     <section className="features-section">
       <div className="section-header" style={{ textAlign: "center" }}>
-        <div className="section-tag">// Technology</div>
         <h2>Why Choose <em>VerifyX</em></h2>
       </div>
 
